@@ -29,7 +29,7 @@ public class TaskController {
 
     @GET
     @Path("{id}")
-    public Task getSingle(@PathParam Long id) {
+    public Task getSingle(@PathParam("id") Integer id) {
         Task entity = entityManager.find(Task.class, id);
         if (entity == null) {
             throw new WebApplicationException("Task with id of " + id + " does not exist.", 404);
@@ -51,7 +51,7 @@ public class TaskController {
     @PUT
     @Path("{id}")
     @Transactional
-    public Task update(@PathParam Integer id, Task task) {
+    public Task update(@PathParam("id") Integer id, Task task) {
         if (task.getName() == null) {
             throw new WebApplicationException("Task Name was not set on request.", 422);
         }
@@ -70,7 +70,7 @@ public class TaskController {
     @DELETE
     @Path("{id}")
     @Transactional
-    public Response delete(@PathParam Integer id) {
+    public Response delete(@PathParam("id") Integer id) {
         Task entity = entityManager.getReference(Task.class, id);
         if (entity == null) {
             throw new WebApplicationException("Task with id of " + id + " does not exist.", 404);
