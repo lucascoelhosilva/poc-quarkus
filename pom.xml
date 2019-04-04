@@ -45,12 +45,6 @@
     <dependency>
       <groupId>io.quarkus</groupId>
       <artifactId>quarkus-jdbc-postgresql</artifactId>
-      <scope>provided</scope>
-    </dependency>
-    <dependency>
-      <groupId>io.quarkus</groupId>
-      <artifactId>quarkus-agroal</artifactId>
-      <scope>provided</scope>
     </dependency>
     <dependency>
       <groupId>io.quarkus</groupId>

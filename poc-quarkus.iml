@@ -112,6 +112,15 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: com.oracle.substratevm:svm:1.0.0-rc13" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: io.quarkus:quarkus-narayana-jta:0.12.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: io.quarkus:quarkus-narayana-jta-runtime:0.12.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.narayana.jta:narayana-jta:5.9.3.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss:jboss-transaction-spi:7.6.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.spec.javax.resource:jboss-connector-api_1.7_spec:1.0.0.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.narayana.jts:narayana-jts-integration:5.9.3.Final" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.quarkus:quarkus-agroal:0.12.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.quarkus:quarkus-agroal-runtime:0.12.0" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.agroal:agroal-api:1.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.agroal:agroal-narayana:1.4" level="project" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: io.agroal:agroal-pool:1.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.hibernate:hibernate-core:5.4.1.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.logging:jboss-logging:3.3.2.Final" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax.persistence:javax.persistence-api:2.2" level="project" />
@@ -130,15 +139,6 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: io.quarkus:quarkus-jdbc-postgresql:0.12.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: io.quarkus:quarkus-jdbc-postgresql-runtime:0.12.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.postgresql:postgresql:42.2.5" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: io.quarkus:quarkus-agroal:0.12.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: io.quarkus:quarkus-agroal-runtime:0.12.0" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.narayana.jta:narayana-jta:5.9.3.Final" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss:jboss-transaction-spi:7.6.0.Final" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.spec.javax.resource:jboss-connector-api_1.7_spec:1.0.0.Final" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: org.jboss.narayana.jts:narayana-jts-integration:5.9.3.Final" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: io.agroal:agroal-api:1.4" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: io.agroal:agroal-narayana:1.4" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Maven: io.agroal:agroal-pool:1.4" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: io.quarkus:quarkus-resteasy-jsonb:0.12.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: io.quarkus:quarkus-resteasy-jsonb-runtime:0.12.0" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: io.quarkus:quarkus-jsonb-runtime:0.12.0" level="project" />

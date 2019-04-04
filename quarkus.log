@@ -1,0 +1,60 @@
+2019-04-04 11:04:51,912 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[25497] DEBUG [org.hib.Version] (main) HHH000412: Hibernate Core {5.4.1.Final}
+2019-04-04 11:04:51,945 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[25497] DEBUG [org.hib.ann.com.Version] (main) HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-04-04 11:04:52,016 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[25497] DEBUG [org.hib.dia.Dialect] (main) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-04-04 11:04:52,570 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[25497] DEBUG [com.arj.ats.arjuna] (main) ARJUNA012170: TransactionStatusManager started on port 34421 and host 127.0.0.1 with service com.arjuna.ats.arjuna.recovery.ActionStatusService
+2019-04-04 11:04:52,699 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[25497] DEBUG [org.hib.orm.beans] (main) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2019-04-04 11:04:52,834 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[25497] DEBUG [org.hib.eng.tra.jta.pla.int.JtaPlatformInitiator] (main) HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-04-04 11:04:53,092 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[25497] DEBUG [org.xnio] (main) XNIO version 3.7.0.Final
+2019-04-04 11:04:53,104 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[25497] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.7.0.Final
+2019-04-04 11:04:53,161 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[25497] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-04-04 11:04:53,204 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[25497] INFO  [io.quarkus] (main) Quarkus 0.12.0 started in 1.563s. Listening on: http://[::]:8080
+2019-04-04 11:04:53,206 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[25497] INFO  [io.quarkus] (main) Installed features: [agroal, cdi, hibernate-orm, jdbc-postgresql, narayana-jta, resteasy, resteasy-jsonb]
+2019-04-04 11:06:52,161 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[25497] INFO  [io.quarkus] (main) Quarkus stopped in 0.022s
+2019-04-04 11:07:34,795 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[26932] DEBUG [org.hib.Version] (main) HHH000412: Hibernate Core {5.4.1.Final}
+2019-04-04 11:07:34,836 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[26932] DEBUG [org.hib.ann.com.Version] (main) HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-04-04 11:07:34,934 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[26932] DEBUG [org.hib.dia.Dialect] (main) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-04-04 11:07:35,718 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[26932] DEBUG [com.arj.ats.arjuna] (main) ARJUNA012170: TransactionStatusManager started on port 44665 and host 127.0.0.1 with service com.arjuna.ats.arjuna.recovery.ActionStatusService
+2019-04-04 11:07:35,853 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[26932] DEBUG [org.hib.orm.beans] (main) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2019-04-04 11:07:36,038 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[26932] DEBUG [org.hib.eng.tra.jta.pla.int.JtaPlatformInitiator] (main) HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-04-04 11:07:36,365 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[26932] DEBUG [org.xnio] (main) XNIO version 3.7.0.Final
+2019-04-04 11:07:36,384 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[26932] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.7.0.Final
+2019-04-04 11:07:36,445 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[26932] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-04-04 11:07:36,506 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[26932] INFO  [io.quarkus] (main) Quarkus 0.12.0 started in 2.053s. Listening on: http://[::]:8080
+2019-04-04 11:07:36,509 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[26932] INFO  [io.quarkus] (main) Installed features: [agroal, cdi, hibernate-orm, jdbc-postgresql, narayana-jta, resteasy, resteasy-jsonb]
+2019-04-04 11:08:27,980 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[26932] INFO  [io.quarkus] (main) Quarkus stopped in 0.021s
+2019-04-04 11:08:36,647 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[27596] DEBUG [org.hib.Version] (main) HHH000412: Hibernate Core {5.4.1.Final}
+2019-04-04 11:08:36,693 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[27596] DEBUG [org.hib.ann.com.Version] (main) HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-04-04 11:08:36,788 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[27596] DEBUG [org.hib.dia.Dialect] (main) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-04-04 11:08:37,527 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[27596] DEBUG [com.arj.ats.arjuna] (main) ARJUNA012170: TransactionStatusManager started on port 36349 and host 127.0.0.1 with service com.arjuna.ats.arjuna.recovery.ActionStatusService
+2019-04-04 11:08:37,682 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[27596] DEBUG [org.hib.orm.beans] (main) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2019-04-04 11:08:37,832 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[27596] DEBUG [org.hib.eng.tra.jta.pla.int.JtaPlatformInitiator] (main) HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-04-04 11:08:38,124 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[27596] DEBUG [org.xnio] (main) XNIO version 3.7.0.Final
+2019-04-04 11:08:38,144 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[27596] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.7.0.Final
+2019-04-04 11:08:38,207 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[27596] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-04-04 11:08:38,274 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[27596] INFO  [io.quarkus] (main) Quarkus 0.12.0 started in 1.990s. Listening on: http://[::]:8080
+2019-04-04 11:08:38,278 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[27596] INFO  [io.quarkus] (main) Installed features: [agroal, cdi, hibernate-orm, jdbc-postgresql, narayana-jta, resteasy, resteasy-jsonb]
+2019-04-04 11:09:38,067 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[27596] INFO  [io.quarkus] (main) Quarkus stopped in 0.009s
+2019-04-04 11:09:57,882 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[28372] DEBUG [org.hib.Version] (main) HHH000412: Hibernate Core {5.4.1.Final}
+2019-04-04 11:09:57,929 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[28372] DEBUG [org.hib.ann.com.Version] (main) HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-04-04 11:09:58,058 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[28372] DEBUG [org.hib.dia.Dialect] (main) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-04-04 11:09:58,728 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[28372] DEBUG [com.arj.ats.arjuna] (main) ARJUNA012170: TransactionStatusManager started on port 35305 and host 127.0.0.1 with service com.arjuna.ats.arjuna.recovery.ActionStatusService
+2019-04-04 11:09:58,862 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[28372] DEBUG [org.hib.orm.beans] (main) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2019-04-04 11:09:59,025 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[28372] DEBUG [org.hib.eng.tra.jta.pla.int.JtaPlatformInitiator] (main) HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-04-04 11:09:59,318 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[28372] DEBUG [org.xnio] (main) XNIO version 3.7.0.Final
+2019-04-04 11:09:59,333 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[28372] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.7.0.Final
+2019-04-04 11:09:59,397 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[28372] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-04-04 11:09:59,459 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[28372] INFO  [io.quarkus] (main) Quarkus 0.12.0 started in 1.914s. Listening on: http://[::]:8080
+2019-04-04 11:09:59,461 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[28372] INFO  [io.quarkus] (main) Installed features: [agroal, cdi, hibernate-orm, jdbc-postgresql, narayana-jta, resteasy, resteasy-jsonb]
+2019-04-04 11:10:17,144 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[28372] INFO  [io.quarkus] (main) Quarkus stopped in 0.025s
+2019-04-04 11:10:33,788 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[28833] DEBUG [org.hib.Version] (main) HHH000412: Hibernate Core {5.4.1.Final}
+2019-04-04 11:10:33,828 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[28833] DEBUG [org.hib.ann.com.Version] (main) HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2019-04-04 11:10:33,926 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[28833] DEBUG [org.hib.dia.Dialect] (main) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2019-04-04 11:10:34,695 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[28833] DEBUG [com.arj.ats.arjuna] (main) ARJUNA012170: TransactionStatusManager started on port 46681 and host 127.0.0.1 with service com.arjuna.ats.arjuna.recovery.ActionStatusService
+2019-04-04 11:10:34,803 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[28833] DEBUG [org.hib.orm.beans] (main) HHH10005002: No explicit CDI BeanManager reference was passed to Hibernate, but CDI is available on the Hibernate ClassLoader.
+2019-04-04 11:10:34,953 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[28833] DEBUG [org.hib.eng.tra.jta.pla.int.JtaPlatformInitiator] (main) HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.JBossStandAloneJtaPlatform]
+2019-04-04 11:10:35,260 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[28833] DEBUG [org.xnio] (main) XNIO version 3.7.0.Final
+2019-04-04 11:10:35,276 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[28833] DEBUG [org.xni.nio] (main) XNIO NIO Implementation Version 3.7.0.Final
+2019-04-04 11:10:35,337 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[28833] DEBUG [org.jbo.threads] (main) JBoss Threads version 3.0.0.Alpha4
+2019-04-04 11:10:35,410 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[28833] INFO  [io.quarkus] (main) Quarkus 0.12.0 started in 1.995s. Listening on: http://[::]:8080
+2019-04-04 11:10:35,414 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[28833] INFO  [io.quarkus] (main) Installed features: [agroal, cdi, hibernate-orm, jdbc-postgresql, narayana-jta, resteasy, resteasy-jsonb]
+2019-04-04 11:11:16,065 da00528 poc-quarkus-1.0-SNAPSHOT-runner.jar[28833] INFO  [io.quarkus] (main) Quarkus stopped in 0.022s

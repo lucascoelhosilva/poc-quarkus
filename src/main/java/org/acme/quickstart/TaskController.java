@@ -1,6 +1,4 @@
-package org.acme.quickstart.controllers;
-
-import org.acme.quickstart.models.User;
+package org.acme.quickstart;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
@@ -14,57 +12,57 @@ import javax.ws.rs.ext.Provider;
 
 import org.jboss.resteasy.annotations.jaxrs.PathParam;
 
-@Path("users")
+@Path("tasks")
 @ApplicationScoped
 @Produces("application/json")
 @Consumes("application/json")
-public class UsersController {
+public class TaskController {
 
     @Inject
     EntityManager entityManager;
 
     @GET
-    public User[] get() {
-        return entityManager.createNamedQuery("Users.findAll", User.class)
-                .getResultList().toArray(new User[0]);
+    public Task[] get() {
+        return entityManager.createNamedQuery("Tasks.findAll", Task.class)
+                .getResultList().toArray(new Task[0]);
     }
 
     @GET
     @Path("{id}")
-    public User getSingle(@PathParam Integer id) {
-        User entity = entityManager.find(User.class, id);
+    public Task getSingle(@PathParam Long id) {
+        Task entity = entityManager.find(Task.class, id);
         if (entity == null) {
-            throw new WebApplicationException("User with id of " + id + " does not exist.", 404);
+            throw new WebApplicationException("Task with id of " + id + " does not exist.", 404);
         }
         return entity;
     }
 
     @POST
     @Transactional
-    public Response create(User user) {
-        if (user.getId() != null) {
+    public Response create(Task task) {
+        if (task.getId() != null) {
             throw new WebApplicationException("Id was invalidly set on request.", 422);
         }
 
-        entityManager.persist(user);
-        return Response.ok(user).status(201).build();
+        entityManager.persist(task);
+        return Response.ok(task).status(201).build();
     }
 
     @PUT
     @Path("{id}")
     @Transactional
-    public User update(@PathParam Integer id, User user) {
-        if (user.getName() == null) {
-            throw new WebApplicationException("User Name was not set on request.", 422);
+    public Task update(@PathParam Integer id, Task task) {
+        if (task.getName() == null) {
+            throw new WebApplicationException("Task Name was not set on request.", 422);
         }
 
-        User entity = entityManager.find(User.class, id);
+        Task entity = entityManager.find(Task.class, id);
 
         if (entity == null) {
-            throw new WebApplicationException("User with id of " + id + " does not exist.", 404);
+            throw new WebApplicationException("Task with id of " + id + " does not exist.", 404);
         }
 
-        entity.setName(user.getName());
+        entity.setName(task.getName());
 
         return entity;
     }
@@ -73,9 +71,9 @@ public class UsersController {
     @Path("{id}")
     @Transactional
     public Response delete(@PathParam Integer id) {
-        User entity = entityManager.getReference(User.class, id);
+        Task entity = entityManager.getReference(Task.class, id);
         if (entity == null) {
-            throw new WebApplicationException("Fruit with id of " + id + " does not exist.", 404);
+            throw new WebApplicationException("Task with id of " + id + " does not exist.", 404);
         }
         entityManager.remove(entity);
         return Response.status(204).build();
